@@ -19,9 +19,6 @@ const Project = db.define('projects', {
     },
     source: {
         type: DataTypes.STRING,
-        validate: {
-            isUrl: true
-        }
     },
 }, {
     freezeTableName: true
