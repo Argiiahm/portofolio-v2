@@ -8,7 +8,7 @@ function Profile() {
     <div className="max-w-2xl">
         <div className="flex gap-6 items-center">
             <div className="w-32">
-               <img className="aspect-square object-cover rounded-full border-4 border-cyan-400" src={profile} alt="Profile" />
+               <img className="aspect-square object-cover rounded-full border-4 border-emerald-300" src={profile} alt="Profile" />
             </div>
             <div>
                 <h1 className="text-4xl font-semibold text-white">Argi Ahmes
