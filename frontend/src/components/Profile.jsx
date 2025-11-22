@@ -1,4 +1,4 @@
-import profile from "../assets/images/Profile.jpg";
+import profile from "../assets/images/profile.jpg";
 import MedsosCard from "./MedsosCard";
 import Statats from "./Statats";
 import Skils from "./Skils";
