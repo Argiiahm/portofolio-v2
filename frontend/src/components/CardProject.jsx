@@ -48,7 +48,7 @@ function CardProject() {
                 <span>
                   <Github />
                 </span>
-                Source
+                <a href={project.source}>Source / Preview</a>
               </button>
             </div>
           </div>
