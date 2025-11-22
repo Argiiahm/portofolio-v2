@@ -13,6 +13,7 @@ app.use(express.static('public'))
 app.use(ProjectsRoute)
 
 
+const PORT = process.env.PORT || 4000;
 app.listen(4000, () => {
-    console.log("Server Running On Port 4000");
+    console.log(`Server Running On Port ${PORT}`);
 })
