@@ -10,7 +10,7 @@ function CardProject() {
   }, []);
 
   const getProject = async () => {
-    const response = await axios.get("http://localhost:4000/projects");
+    const response = await axios.get("https://portofolio-v2.zeabur.app/projects");
     setProjects(response.data);
   };
 
